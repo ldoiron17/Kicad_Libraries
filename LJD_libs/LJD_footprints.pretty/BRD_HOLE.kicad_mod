@@ -1,0 +1,9 @@
+(module BRD_HOLE (layer F.Cu) (tedit 55E309DC)
+  (fp_text reference Board_hole (at 6.65 -5.7) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value VAL** (at 2.45 -4.2) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 5.08 5.08) (drill 2.54) (layers *.Cu *.Mask F.SilkS))
+)
